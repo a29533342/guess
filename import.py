@@ -1,5 +1,10 @@
 import random
-r = random.randint(1, 100)
+Max = input('請決定最大值:')
+Max = int(Max)
+Min = input('請決定最小值:')
+Min = int(Min)
+
+r = random.randint(Min, Max)
 count = 0
 while True:
 	count = count + 1
